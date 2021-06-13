@@ -1,0 +1,36 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    color: white;
+}
+
+body {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f6f6f6;
+}
+
+#nav-menu {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#nav-menu a {
+    text-decoration: none;
+}
+
+#nav-menu li {
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    background-color: #808080;
+}
+
+.center {
+    padding-top: 2px;
+}
+
+#nav-menu li:hover {
+    background-color: #5e5e5e;
+}
