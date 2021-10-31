@@ -12,17 +12,20 @@ body {
 }
 
 #nav-menu {
-    padding-left: 0;
+    width: fit-content;
+    margin: 20px 40px;
+    padding: 0;
     list-style-type: none;
 }
 
 #nav-menu a {
+    padding: 20px;
+    display: block;
     text-decoration: none;
 }
 
 #nav-menu li {
     margin: 0;
-    padding: 20px;
     width: 200px;
     background-color: #808080;
     transition: background-color 0.5s;
