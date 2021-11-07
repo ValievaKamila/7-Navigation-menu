@@ -1,16 +1,4 @@
 
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    vertical-align: middle;
-    color: white;
-}
-
-body {
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: #f6f6f6;
-}
-
 #nav-menu {
     width: fit-content;
     margin: 20px 40px;
@@ -19,22 +7,42 @@ body {
 }
 
 #nav-menu a {
-    padding: 20px;
     display: block;
-    text-decoration: none;
-}
-
-#nav-menu li {
-    margin: 0;
-    width: 200px;
+    padding: 30px 55px;
+    padding-left: 80px;
+    
     background-color: #808080;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 12px 13px;
+
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
     transition: background-color 0.5s;
 }
 
-.center {
-    padding-top: 2px;
+#nav-menu a:hover {
+    background-color: #5e5e5e;
 }
 
-#nav-menu li:hover {
-    background-color: #5e5e5e;
+#edit {
+    background-image: url('icons/edit.png');
+}
+
+#favorites{
+    background-image: url('icons/favorites.png');
+}
+
+#history{
+    background-image: url('icons/history.png');
+}
+
+#security{
+    background-image: url('icons/security.png');
+}
+
+#settings{
+    background-image: url('icons/settings.png');
 }
